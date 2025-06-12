@@ -33,6 +33,7 @@ public:
             FRONT = 0;
             REAR = 0;
         }
+        
         else
         {
             if (REAR == max -1)
