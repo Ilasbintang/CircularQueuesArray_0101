@@ -115,6 +115,39 @@ int main()
 
     while (true)
     {
+       try
+       {
+            cout << "Menu" << endl;
+            cout << "1. implement insert operation" << endl;
+            cout << "2. implement delete operation" << endl;
+            cout << "3. Diplay values" << endl;
+            cout << "4. Exit" << endl;
+            cout << "Enter yuor choice (1-4): ";
+            cin >> ch;
+            cout << endl;
+
+            swicth(ch)
+            {
+                case '1':
+                {
+                    
+                    q.insert();
+                    break
+                }
+                case '2':
+                {
+
+                    q.remove();
+                    break;
+                }
+                case '3':
+                {
+                    q.diplay();
+                    break;
+                }
+            }
+       }
+       
         
     }
 }
