@@ -68,7 +68,7 @@ public:
                 FRONT = FRONT + 1;
         }
     }
-    
+
     void display()
     {
         int FRONT_position = FRONT;
@@ -91,6 +91,7 @@ public:
             }
             cout << endl;
         }
+        
         else
         {
             while (FRONT_position <= max - 1)
