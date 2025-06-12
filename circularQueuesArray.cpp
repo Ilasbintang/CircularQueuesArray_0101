@@ -42,7 +42,7 @@ public:
                 REAR = REAR + 1;
         }
         queue_array[REAR] = num;
-        
+
     }
 
     void remove()
@@ -59,6 +59,7 @@ public:
             FRONT = -1;
             REAR = -1;
         }
+        
         else
         {
             if (FRONT == max - 1)
