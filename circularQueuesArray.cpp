@@ -59,7 +59,7 @@ public:
             FRONT = -1;
             REAR = -1;
         }
-        
+
         else
         {
             if (FRONT == max - 1)
@@ -68,6 +68,7 @@ public:
                 FRONT = FRONT + 1;
         }
     }
+    
     void display()
     {
         int FRONT_position = FRONT;
