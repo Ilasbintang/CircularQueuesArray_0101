@@ -126,13 +126,13 @@ int main()
             cin >> ch;
             cout << endl;
 
-            swicth(ch)
+            switch(ch)
             {
                 case '1':
                 {
                     
                     q.insert();
-                    break
+                    break;
                 }
                 case '2':
                 {
@@ -142,12 +142,27 @@ int main()
                 }
                 case '3':
                 {
-                    q.diplay();
+                    q.display();
+                    break;
+                }
+                case '4':
+                {
+                    return 0;
+                }
+                default:
+                {
+                    cout << "Invalid option!!" << endl;
                     break;
                 }
             }
        }
+       catch(const std::exception& e)
+       {
+            cout << "Check for the values entered." << endl;
+       }
        
         
     }
+
+    return 0;
 }
